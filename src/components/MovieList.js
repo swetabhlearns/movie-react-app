@@ -29,7 +29,7 @@ const MovieList = ({
                   console.log(movie.Title);
                 }}
               >
-                See More
+                More Info
               </button>
             </p>
           </footer>

@@ -13,6 +13,9 @@ body {
 .row > * {
   width: none;
 }
+.col h1 {
+  cursor: pointer;
+}
 .home-display {
   display: flex;
   flex-direction: column;

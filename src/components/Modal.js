@@ -1,5 +1,6 @@
 import React from "react";
 import "./Modal.css";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 const Modal = (props) => {
   return (
@@ -23,7 +24,7 @@ const Modal = (props) => {
                     >{`${rating.Source}: ${rating.Value}`}</p>
                   ))}
                 <button className="button" onClick={() => props.setShow(false)}>
-                  Close
+                  <AiFillCloseCircle />
                 </button>
               </div>
             </header>

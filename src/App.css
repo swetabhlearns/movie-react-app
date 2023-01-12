@@ -132,3 +132,10 @@ body {
     height: 450px;
   }
 }
+.button {
+  border: none;
+  font-size: 2rem;
+}
+.ratings {
+  text-align: center;
+}
